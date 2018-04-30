@@ -1,0 +1,21 @@
+{
+  "name": "player",
+  "authors": [
+    "Javier Pérez <jpv881@gmail.com>"
+  ],
+  "description": "soundcloud player",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}

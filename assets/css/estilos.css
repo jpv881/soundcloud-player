@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+.title {
+    font-family: 'Audiowide', cursive;
+    font-size: 3em;
+}
+
+div.title {
+    text-align: center;
+    padding-top: 0.3em;
+}
+#mainSection {
+    background-color: #171C1E;
+    color: white;
+    /*height: 85vh;*/
+    height: 100vh;
+}
+
+#controlsSection {
+    height: 15vh;
+    background-color: #282828;
+}
+
+#playerFrame {
+    /*border: solid 1px white;*/
+    /*border-radius: 5px;*/
+    min-height: 50vh;
+    background-color: black;
+    /*margin-top: 2em;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+#inputSearch {
+    width: 33vw;
+    margin-top: 1em;
+    background-color: #171C1E;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color:white;
+    border-bottom: 0.05em solid;
+    font-size: 2em;
+}
+
+#inputParent {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#inputSearch:focus {
+    outline: none;
+}
+
+#inputSearch::placeholder {
+    color: #bbb;
+}
+
+#parentRow {
+    padding-top: 6em;
+}
+
+#divSongTitle,
+#divSongTime {
+    color: white;
+}
+
+/*#controlsContainer {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+/*}*/
+
+/*.fa-play {*/
+    /*color: white;*/
+    /*font-size: 1.4em;*/
+/*}*/
+
+/*.fa-play:hover {*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*#controlsContainer > div:nth-child(1) {*/
+    /*padding-top: 0.5em;*/
+/*}*/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundcloud Player</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+<section id="mainSection">
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="title">
+                SOUNDCLOUD PLAYER
+            </div>
+            <div id="inputParent">
+                <input id="inputSearch" type="text" placeholder="buscar">
+            </div>
+            <div class="row" id="parentRow">
+                <div class="col-md-5">
+                    <div id="playerFrame" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    </div>
+                    <div id="divSongTime">
+                        <span></span>
+                    </div>
+                    <div id="divSongTitle">
+
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row" id="songsRow">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--<section id="controlsSection">-->
+    <!--<div class="wrapper">-->
+        <!--<div class="container-fluid">-->
+            <!--<div id="controlsContainer">-->
+                <!--<div>-->
+                    <!--<span class="fas fa-play"></span>-->
+                <!--</div>-->
+                <!--<div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
